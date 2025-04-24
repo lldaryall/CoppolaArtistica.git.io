@@ -1,3 +1,4 @@
+```javascript
 import { useEffect, useState } from 'react';
 
 export default function NewsletterModal() {
@@ -36,7 +37,9 @@ export default function NewsletterModal() {
             placeholder="you@example.com"
             className="border px-3 py-2 rounded"
           />
-          <button type="submit" className="bg-blue-600 text-white py-2 rounded hover:bg-blue-700">
+          <button type="submit" 
+          className="bg-blue-600 text-white py-2 rounded hover:bg-blue-700"
+          >
             Sign Up
           </button>
         </form>
@@ -44,3 +47,4 @@ export default function NewsletterModal() {
     </div>
   );
 }
+```
