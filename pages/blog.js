@@ -1,3 +1,4 @@
+```javascript
 import { useLoadScript, GoogleMap, Marker, InfoWindow } from '@react-google-maps/api';
 import { useState } from 'react';
 
@@ -12,9 +13,12 @@ const attractions = [
 ];
 
 export default function Blog() {
-  const { isLoaded } = useLoadScript({ googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY });
+  const { isLoaded, loadError } = useLoadScript({
+    googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY
+  });
   const [selected, setSelected] = useState(null);
 
+  if (loadError) return <div>Error loading map</div>;
   if (!isLoaded) return <div>Loading map...</div>;
 
   return (
@@ -40,3 +44,4 @@ export default function Blog() {
     </main>
   );
 }
+```
