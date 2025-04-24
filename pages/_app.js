@@ -1,4 +1,4 @@
-```javascript
+
 import '../styles/globals.css';
 import Navbar from '../components/Navbar';
 import NewsletterModal from '../components/NewsletterModal';
@@ -12,4 +12,4 @@ return (
     </>
   );
 }
-```
+
