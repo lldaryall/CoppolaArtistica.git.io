@@ -1,4 +1,3 @@
-```javascript
 import { useState } from 'react';
 import Link from 'next/link';
 
@@ -23,4 +22,3 @@ return (
     </nav>
   );
 }
-```
