@@ -1,0 +1,66 @@
+[
+  {
+    "region": "deruta",
+    "items": [
+      {
+        "name": "Deruta Bowl",
+        "category": "Bowls",
+        "price": 45,
+        "colors": ["Blue","Green"],
+        "image": "/images/deruta-bowl.jpg"
+      }
+    ]
+  },
+  {
+    "region": "positano",
+    "items": [
+      {
+        "name": "Positano Plate",
+        "category": "Wall Decor",
+        "price": 60,
+        "colors": ["Yellow","Orange"],
+        "image": "/images/positano-plate.jpg"
+      }
+    ]
+  },
+  {
+    "region": "store-gallery",
+    "items": [
+      {
+        "name": "Christmas Ornaments",
+        "category": "Decor",
+        "price": 25,
+        "colors": ["Multi"],
+        "image": "/images/christmas-ornaments.jpeg"
+      },
+      {
+        "name": "Family Portrait",
+        "category": "About",
+        "price": 0,
+        "colors": [],
+        "image": "/images/coppola-family.jpeg"
+      },
+      {
+        "name": "Storefront",
+        "category": "About",
+        "price": 0,
+        "colors": [],
+        "image": "/images/storefront.jpeg"
+      },
+      {
+        "name": "Hand-painted Tiles",
+        "category": "Tiles",
+        "price": 15,
+        "colors": ["Yellow","Blue"],
+        "image": "/images/tiles.jpeg"
+      },
+      {
+        "name": "Wine Corks",
+        "category": "Accessories",
+        "price": 5,
+        "colors": ["Natural"],
+        "image": "/images/wine-corks.jpeg"
+      }
+    ]
+  }
+]
