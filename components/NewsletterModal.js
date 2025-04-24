@@ -1,4 +1,3 @@
-```javascript
 import { useEffect, useState } from 'react';
 
 export default function NewsletterModal() {
@@ -47,4 +46,3 @@ export default function NewsletterModal() {
     </div>
   );
 }
-```
