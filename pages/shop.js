@@ -1,4 +1,4 @@
-```javascript
+
 import { useState } from 'react';
 import Image from 'next/image';
 import productsData from '../data/products.json';
@@ -77,4 +77,4 @@ export default function Shop() {
     </main>
   );
 }
-```
+
