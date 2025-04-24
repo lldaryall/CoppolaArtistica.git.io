@@ -1,9 +1,10 @@
+```javascript
 import '../styles/globals.css';
 import Navbar from '../components/Navbar';
 import NewsletterModal from '../components/NewsletterModal';
 
-function MyApp({ Component, pageProps }) {
-  return (
+export default function App({ Component, pageProps }) { 
+return (
     <>
       <Navbar />
       <NewsletterModal />
@@ -11,5 +12,4 @@ function MyApp({ Component, pageProps }) {
     </>
   );
 }
-
-export default MyApp;
+```
