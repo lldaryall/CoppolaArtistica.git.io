@@ -1,3 +1,4 @@
+```javascript
 import { useState } from 'react';
 
 export default function Contact() {
@@ -43,3 +44,4 @@ export default function Contact() {
     </main>
   );
 }
+```
