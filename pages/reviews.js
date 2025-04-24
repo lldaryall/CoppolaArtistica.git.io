@@ -1,4 +1,4 @@
-```javascript
+
 const reviews = [
   { source: 'Yelp', link: 'https://www.yelp.com/biz/coppola-artistica-venice', text: 'Great pottery!', rating: 5 },
   { source: 'SRQ Magazine', link: 'https://www.srqmagazine.com/articles/2023/Made-in-Italy', text: 'Featured artisan quality.', rating: 4 },
@@ -19,4 +19,4 @@ export default function Reviews() {
     </main>
   );
 }
-```
+
