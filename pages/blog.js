@@ -1,4 +1,4 @@
-```javascript
+
 import { useLoadScript, GoogleMap, Marker, InfoWindow } from '@react-google-maps/api';
 import { useState } from 'react';
 
@@ -44,4 +44,4 @@ export default function Blog() {
     </main>
   );
 }
-```
+
