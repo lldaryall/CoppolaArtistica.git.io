@@ -1,4 +1,4 @@
-```javascript
+
 export default async function handler(req, res) {
   const term = req.query.term || '';
   const APPID = process.env.EBAY_APP_ID;
@@ -24,4 +24,4 @@ export default async function handler(req, res) {
   }));
   res.status(200).json(items);
 }
-```
+
